@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusi Archana Reddy | AI & Data Science Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="AI & Data Science Student and Full-Stack Developer portfolio of Nusi Archana Reddy. Specializing in Java, Python, Flask, React.js, and SQL.">
+    <meta name="keywords" content="Nusi Archana Reddy, Data Science, Artificial Intelligence, Full-Stack Developer, Flask, React, Java, Python, SQL, Portfolio">
+    <meta name="author" content="Nusi Archana Reddy">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Nusi Archana Reddy | AI & Data Science Portfolio">
+    <meta property="og:description" content="Software Engineering and AI & Data Science undergraduate with strong skills in Java, Python, SQL, and Full-Stack Development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/nusiarchanareddy1">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><i class="fas fa-brain-circuit"></i> Archana<span class="logo-accent">.</span></a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fas fa-sparkles"></i> Open to Opportunities</div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Nusi Archana Reddy</span></h1>
+                <p class="hero-subtitle">AI & Data Science Student & Full-Stack Developer</p>
+                <p class="hero-description">I build intelligent, scalable applications using Java, Python, and modern web frameworks. Passionate about algorithms, databases, and turning complex data into impactful solutions.</p>
+                
+                <div class="hero-socials">
+                    <a href="https://github.com/nusiarchanareddy1" target="_blank" class="hero-social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/archana-reddy-nusi-67a166329" target="_blank" class="hero-social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:narchanareddy1@gmail.com" class="hero-social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-illustration" id="heroIllustration">
+                <div class="hero-graphic-wrapper">
+                    <!-- Glass Card -->
+                    <div class="glass-dashboard-card" id="heroCard">
+                        <div class="card-header-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="card-code-content">
+                            <p class="code-line"><span class="keyword">const</span> developer = {</p>
+                            <p class="code-line indent"><span class="property">name</span>: <span class="string">'Archana Reddy'</span>,</p>
+                            <p class="code-line indent"><span class="property">major</span>: <span class="string">'AI & Data Science'</span>,</p>
+                            <p class="code-line indent"><span class="property">skills</span>: [<span class="string">'Java'</span>, <span class="string">'Python'</span>, <span class="string">'React'</span>, <span class="string">'Flask'</span>],</p>
+                            <p class="code-line indent"><span class="property">solveProblems</span>: () => <span class="keyword">true</span></p>
+                            <p class="code-line">};</p>
+                        </div>
+                    </div>
+                    <!-- Profile Picture Frame -->
+                    <div class="profile-frame" id="heroProfile">
+                        <div class="profile-glow-ring"></div>
+                        <div class="profile-img-wrap">
+                            <img src="profile.jpg" alt="Nusi Archana Reddy" class="profile-img">
+                        </div>
+                        <div class="profile-badge-overlay"><i class="fas fa-brain-circuit"></i></div>
+                    </div>
+                </div>
+                <div class="glowing-orb"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Software Engineering and Artificial Intelligence & Data Science undergraduate at <strong>Vasireddy Venkatadri Institute of Technology</strong>. With a strong foundation in core computer science subjects, I specialize in Data Structures & Algorithms, Object-Oriented Programming, and Database Management Systems.</p>
+                    <p>My passion lies in backend development, API integration, and full-stack engineering. I enjoy building responsive user interfaces with React.js and integrating them with robust Flask backends. I am an active competitive programmer and a quick learner, constantly exploring new software methodologies and cloud technologies to solve real-world problems.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="stat-num">9.0</div>
+                            <div class="stat-label">B.Tech CGPA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-star"></i></div>
+                            <div class="stat-num">2★</div>
+                            <div class="stat-label">CodeChef Rating</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                            <div class="stat-num">7+</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <div class="education-header">
+                        <span class="edu-badge">2023 - Present</span>
+                        <h3>B.Tech in Artificial Intelligence & Data Science</h3>
+                        <p class="edu-institution">Vasireddy Venkatadri Institute of Technology (VVIT)</p>
+                    </div>
+                    <div class="education-details">
+                        <p class="edu-score"><i class="fas fa-award"></i> <strong>CGPA:</strong> 9.0 / 10</p>
+                        <p>Focusing on foundational algorithms, machine learning models, database architecture, and advanced software engineering methodologies.</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <div class="education-header">
+                        <span class="edu-badge">2021 - 2023</span>
+                        <h3>Intermediate (MPC)</h3>
+                        <p class="edu-institution">Narayana Junior College</p>
+                    </div>
+                    <div class="education-details">
+                        <p class="edu-score"><i class="fas fa-award"></i> <strong>Percentage:</strong> 97.4%</p>
+                        <p>Completed major coursework in Mathematics, Physics, and Chemistry, graduating with honors in academic excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> C</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend & APIs</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag"><i class="fas fa-leaf"></i> Flask</span>
+                        <span class="skill-tag"><i class="fas fa-link"></i> REST APIs</span>
+                        <span class="skill-tag"><i class="fas fa-plug"></i> API Integration</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-tag"><i class="fab fa-js-square"></i> JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag"><i class="fas fa-table"></i> PostgreSQL</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-gears"></i>
+                        <h3>Core Computer Science</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag"><i class="fas fa-sitemap"></i> Data Structures & Algorithms</span>
+                        <span class="skill-tag"><i class="fas fa-cubes"></i> OOP (Object-Oriented Programming)</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> DBMS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                        <h3>Tools & Methods</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-terminal"></i> VS Code</span>
+                        <span class="skill-tag"><i class="fas fa-bug"></i> Debugging</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-featured-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-showcase-card">
+                    <div class="project-visual-panel gradient-violet">
+                        <div class="panel-icon"><i class="fas fa-microphone-lines"></i></div>
+                        <div class="panel-badge">Full-Stack</div>
+                    </div>
+                    <div class="project-info-panel">
+                        <span class="project-label">Academic & Clinical Platform</span>
+                        <h3>Intelligent Speech Therapy Platform</h3>
+                        <p class="project-desc">A full-stack web application designed to aid speech analysis and track patient progress in real-time. Features an interactive dashboard for therapy insights, custom data structures for diagnostics, and robust database storage.</p>
+                        
+                        <div class="project-bullet-details">
+                            <p><i class="far fa-circle-check"></i> Developed a full-stack web application for speech analysis and patient progress tracking.</p>
+                            <p><i class="far fa-circle-check"></i> Designed and implemented backend REST APIs and business logic using Flask.</p>
+                            <p><i class="far fa-circle-check"></i> Built interactive, responsive dashboards using React.js and state management.</p>
+                            <p><i class="far fa-circle-check"></i> Integrated PostgreSQL to perform fast data storage and query analysis.</p>
+                        </div>
+                        
+                        <div class="project-tech-tags">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                        
+                        <div class="project-action-links">
+                            <a href="https://github.com/nusiarchanareddy1" target="_blank" class="project-btn-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-showcase-card">
+                    <div class="project-visual-panel gradient-blue">
+                        <div class="panel-icon"><i class="fas fa-file-invoice"></i></div>
+                        <div class="panel-badge">AI / ML Integration</div>
+                    </div>
+                    <div class="project-info-panel">
+                        <span class="project-label">AI Automation Tool</span>
+                        <h3>AI Resume Analyzer</h3>
+                        <p class="project-desc">An AI-powered ATS resume evaluator that reads CV structures, extracts skills, analyzes word density, and calculates alignment with target job descriptions using large language models.</p>
+                        
+                        <div class="project-bullet-details">
+                            <p><i class="far fa-circle-check"></i> Developed an AI-powered resume evaluation platform using Gemini API and Flask.</p>
+                            <p><i class="far fa-circle-check"></i> Implemented robust resume parsing, keyword matching, and skill extraction.</p>
+                            <p><i class="far fa-circle-check"></i> Generated real-time ATS compatibility scores and personalized improvement reports.</p>
+                            <p><i class="far fa-circle-check"></i> Created lightweight, high-performance APIs for file parsing and data processing.</p>
+                        </div>
+                        
+                        <div class="project-tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Gemini API</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">NLP Parsing</span>
+                        </div>
+                        
+                        <div class="project-action-links">
+                            <a href="https://github.com/nusiarchanareddy1" target="_blank" class="project-btn-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-showcase-card">
+                    <div class="project-visual-panel gradient-red">
+                        <div class="panel-icon"><i class="fas fa-heart-pulse"></i></div>
+                        <div class="panel-badge">Machine Learning</div>
+                    </div>
+                    <div class="project-info-panel">
+                        <span class="project-label">Predictive Analytics</span>
+                        <h3>Heart Disease Prediction</h3>
+                        <p class="project-desc">A clinical prediction model that analyzes patient diagnostic records to estimate cardiovascular health risks using structured machine learning models.</p>
+                        
+                        <div class="project-bullet-details">
+                            <p><i class="far fa-circle-check"></i> Built a machine learning model to predict heart disease risk using clinical datasets.</p>
+                            <p><i class="far fa-circle-check"></i> Performed data preprocessing, feature engineering, and model evaluation.</p>
+                            <p><i class="far fa-circle-check"></i> Deployed using Flask for real-time prediction support.</p>
+                        </div>
+                        
+                        <div class="project-tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Pandas / Scikit-learn</span>
+                        </div>
+                        
+                        <div class="project-action-links">
+                            <a href="https://github.com/nusiarchanareddy1" target="_blank" class="project-btn-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-showcase-card">
+                    <div class="project-visual-panel gradient-emerald">
+                        <div class="panel-icon"><i class="fas fa-house-medical"></i></div>
+                        <div class="panel-badge">Mobile & Accessibility</div>
+                    </div>
+                    <div class="project-info-panel">
+                        <span class="project-label">Healthcare Access</span>
+                        <h3>Village Health Guide App</h3>
+                        <p class="project-desc">An accessible, voice-assisted rural health advisory application helping remote communities receive basic diagnostics advice and information in local formats.</p>
+                        
+                        <div class="project-bullet-details">
+                            <p><i class="far fa-circle-check"></i> Developed a rural healthcare app with voice-assisted navigation using Google Speech API.</p>
+                            <p><i class="far fa-circle-check"></i> Integrated NLP-based features for accessibility and user interaction.</p>
+                            <p><i class="far fa-circle-check"></i> Designed frontend using HTML, CSS, JavaScript with backend integration.</p>
+                        </div>
+                        
+                        <div class="project-tech-tags">
+                            <span class="tech-tag">HTML5 / CSS3 / JS</span>
+                            <span class="tech-tag">Google Speech API</span>
+                            <span class="tech-tag">Natural Language Processing</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        
+                        <div class="project-action-links">
+                            <a href="https://github.com/nusiarchanareddy1" target="_blank" class="project-btn-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Internship Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-card">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card-header">
+                        <span class="timeline-duration"><i class="far fa-calendar-alt"></i> Nov 2025 - Jan 2026</span>
+                        <h3>Infosys Springboard Virtual Intern</h3>
+                        <p class="timeline-employer"><i class="fas fa-building"></i> Infosys Limited</p>
+                    </div>
+                    <div class="timeline-card-body">
+                        <ul class="timeline-bullets">
+                            <li>Collaborated on software development tasks and integrated backend REST APIs.</li>
+                            <li>Developed reusable components and modular building blocks to contribute to final project deliverables.</li>
+                            <li>Participated in debugging, unit testing, and optimizing application codebases for performance.</li>
+                            <li>Practiced agile methodologies and followed modern software development best practices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="ach-icon"><i class="fas fa-ranking-star"></i></div>
+                    <h3>Top 5% Academically</h3>
+                    <p>Maintained consistent high academic standing, ranking in the top 5% at Vasireddy Venkatadri Institute of Technology.</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>CodeChef 2-Star</h3>
+                    <p>Earned a 2-Star Rating on CodeChef by solving advanced Data Structures, Algorithms, and SQL challenges.</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="ach-icon"><i class="fas fa-running"></i></div>
+                    <h3>National Throwball Player</h3>
+                    <p>Played throwball at the national level, demonstrating top-tier competitive spirit, coordination, and team dynamics.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="ach-icon"><i class="fas fa-users-gear"></i></div>
+                    <h3>Chairman's Club Member</h3>
+                    <p>Active member of the institutional Chairman's Club, participating in leadership events and community initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">IBM</span>
+                        <h3>Python for Data Science</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">Smart Interviews</span>
+                        <h3>Data Structures & Algorithms</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">HackerRank</span>
+                        <h3>SQL Certification</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">NPTEL</span>
+                        <h3>Programming in Java</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">NPTEL</span>
+                        <h3>Programming in Modern C++</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">CodeChef</span>
+                        <h3>DSA & SQL Mastery</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-details">
+                        <span class="cert-badge">Microsoft</span>
+                        <h3>Azure Fundamentals (AZ-900)</h3>
+                    </div>
+                    <i class="fas fa-certificate cert-icon-glowing"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <h3>Let's Connect!</h3>
+                    <p>I am always open to discussing full-stack projects, internship opportunities, software engineering challenges, or competitive programming concepts.</p>
+                    
+                    <div class="contact-details-list">
+                        <div class="contact-detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:narchanareddy1@gmail.com">narchanareddy1@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8688775210</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Andhra Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials-block">
+                        <h4>Find Me On</h4>
+                        <div class="social-flex">
+                            <a href="https://github.com/nusiarchanareddy1" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.linkedin.com/in/archana-reddy-nusi-67a166329" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form-panel" id="contactForm">
+                    <h3>Send a Message</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Discussion" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>Nusi Archana Reddy</h3>
+                    <p>AI & Data Science Student & Developer building high-impact full-stack solutions.</p>
+                </div>
+                <div class="footer-links-grid">
+                    <div>
+                        <h4>Quick Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>More</h4>
+                        <ul>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#achievements">Achievements</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nusi Archana Reddy. All rights reserved. Crafted with <i class="fas fa-heart text-danger"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
